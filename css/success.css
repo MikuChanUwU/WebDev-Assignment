@@ -1,0 +1,28 @@
+.flexbox-container {
+  opacity:1;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.flexbox-item{
+  margin: 10px;
+  background-color: black;
+  margin-top: 100px;
+}
+.flexbox-item-1{
+  width:50%;
+  min-height:300px;
+  border-radius:30px;
+  justify-content: center;
+}
+.flexbox-item-1 p{
+  margin-top:20px;
+  margin-left:20px;
+  color:white;
+  text-align:center;
+}
+@media screen and (max-width: 900px) {
+  .flexbox-container{
+    flex-direction: row !important;
+  }
+}

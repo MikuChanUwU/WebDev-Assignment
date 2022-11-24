@@ -1,0 +1,50 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:Orbitron-SemiBold;
+}
+
+body{
+  background-color:black !important;
+  scroll-behavior: smooth !important; /* to make the movement of the page smoother to scroll */
+}
+
+/* responsiveness */
+@media screen and (max-width: 900px) {
+  .flexbox-container{
+    flex-direction: column;
+  }
+  .header1 h1{
+    font-size:30px !important;
+  }
+}
+
+p{
+  font-family:Orbitron-SemiBold;
+}
+
+@font-face {
+ font-family: Orbitron-SemiBold;
+ src: url(../font/Orbitron-SemiBold.ttf);
+}
+
+
+.bold{
+  font-weight:bold;
+  font-size:25px;
+}
+
+.header1 h1{
+  text-align: center;
+  font-size: 60px;
+  font-family: Orbitron-SemiBold;
+  color:white;
+  background-image:url(../images/Banner.webp);
+  background-repeat:no-repeat;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  margin-top:20px;
+}

@@ -1,0 +1,69 @@
+p{
+  color:white;
+  text-align:center;
+}
+
+/* to set up all of the boxes */
+.flexbox-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+}
+.flexbox-item{
+  border: 3px solid black;
+  background-color:black;
+  margin-top: 50px;
+}
+.flexbox-item-1{
+  width:300px;
+  min-height:700px;
+  border-radius: 10px;
+  font-size:30px;
+}
+
+.flexbox-item img{
+    width:100%;
+    height:100%;
+    border: 3px solid lightblue;
+    border-radius:10px;
+    opacity:0.7;
+}
+
+/* responsiveness */
+@media screen and (max-width: 900px) {
+  .flexbox-container{
+    flex-direction: column;
+  }
+}
+
+/* responsiveness*/
+@media screen and (max-width:750px) {
+  .header1 h1{
+    font-size: 40px !important;
+  }
+  .searchbar{
+    width:100% !important;
+  }
+}
+
+.searchbar{
+  margin-top:30px;
+  margin-bottom:30px;
+  width:45%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.gcse-search{
+  margin-bottom:50px;
+}
+
+button{
+  display:none;
+}
+
+form{
+  text-align:center;
+}

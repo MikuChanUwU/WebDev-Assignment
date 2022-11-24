@@ -1,0 +1,58 @@
+p{
+  font-family: Orbitron-SemiBold;
+}
+
+.header1{
+  text-align:center;
+  float:center;
+
+}
+
+.header2{
+  background-image:url(../images/header.webp);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+img{
+  width:100%;
+  height:100%;
+}
+
+.header1 h2{
+  text-align: center;
+  font-size: 60px;
+  font-family: Orbitron-SemiBold;
+  color:white;
+  background-image:url(../images/Banner.webp);
+  background-repeat:no-repeat;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  margin-top:20px;
+}
+
+.words{
+  text-align:center;
+  color:white;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  font-size:25px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .projects{
+    flex-direction:column;
+  }
+  .project {
+    width:300px !important;
+    height:200px !important;
+  }
+  .header1 h2{
+    font-size:30px;
+  }
+}

@@ -1,0 +1,54 @@
+p{
+  text-align:center;
+  color:white;
+}
+
+h1{
+  text-align:center;
+  color:white;
+}
+iframe{
+  align-items:center;
+  text-align:center;
+}
+
+.me img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:50px;
+  max-width: 100%;
+  height: auto;
+}
+
+table, th, td, tr{
+  border: 3px solid white;
+  color: white;
+  font-size:15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ table th{
+   font-weight:Bold;
+   color:grey;
+ }
+
+  table{
+    margin-bottom:50px;
+  }
+
+.video{
+  width:560px;
+  height:315px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .video{
+    width:350px;
+    height:200px;
+  }
+}

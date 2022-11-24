@@ -1,0 +1,66 @@
+p{
+  font-size:20px;
+  padding:10px;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+h2{
+  font-size:40px;
+  padding-left:20px;
+}
+h1{
+  width:auto;
+  height:auto;
+}
+
+.title{
+  background-image:url(../images/header.webp);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:white;
+  padding-top:30px;
+  padding-bottom:30px;
+  border-top:3px black solid;
+  border-bottom:3px black solid;
+}
+
+.paragraph img{
+  margin-bottom:30px;
+}
+
+.breadcrumb{
+  margin-top:200px !important;
+}
+
+@media screen and (max-width: 750px) {
+  .flexbox-item-1 h1{
+    font-size:32px !important;
+  }
+  .flexbox-item-1 h2{
+    font-size:20px !important;
+  }
+  .toc_title {
+      font-size:25px !important;
+  }
+  p{
+    margin-left:0px !important;
+    margin-right:0px !important;
+  }
+  #toc_container li, #toc_container ul, #toc_container ul li{
+      margin-left:0px !important;
+  }
+}
+
+table, th, td, tr{
+  border: 3px solid black;
+  font-size:15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*  */
+.episode{
+  width:50% !important;
+  height:auto;
+}

@@ -1,0 +1,38 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:100%;
+}
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color:#9ed8ec;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999 !important;
+}
+.loader {
+  display: inline-block;
+  width: 200px !important;
+  height: 200px !important;
+  position: relative;
+  animation: loader 2s infinite ease;
+}
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+/* settings to fit the image inside .loader */
+.loader img{
+  width:100%;
+  height:100%;
+}
